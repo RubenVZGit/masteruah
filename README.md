@@ -30,4 +30,11 @@ Ejercicio 7 (Subimos todo al repositorio remoto)
 Ejercicio 8 (Crear una rama v0.2)
 - Añadimos la rama v0.2 con el comando "git branch v0.2"
 - Posicionamos la carpeta en la rama v0.2 con "git checkout v0.2"
-- Añadimos el fichero 2.txt a la rama v0.2 con ""
+- Añadimos el fichero 2.txt a la rama v0.2 con "nano 2.txt"
+	**git add 2.txt"
+	**git commit -m "Commit 3""
+	**git push
+	
+Ejercicio 9 (Merge directo)
+Posicionamos en la rama main con "git checkout main"
+Hacemos un merge de la rama v0.2 en la rama master con "git merge v0.2 main"
