@@ -10,3 +10,12 @@ Ejercicio 3 (Commit Inicial)
 - Seguidamente nuestro correo "git config --global user.email 'tu@email.com'"
 - Utilizamos "git add masteruah/README" para añadir el archivo
 - Y finalmente con "git commit -m "commit inicial""
+
+Ejercicio 4 (Push Inicial)
+- Con el comando "git push" subimos el commit que habíamos realizado al repositorio remoto.
+
+Ejercicio 5 (Fichero 1.txt)
+Añadimos el fichero con "nano 1.txt"
+
+Ejercicio 6 (Tag v0.1)
+Añadimos el tag con "git tag v0.1"
