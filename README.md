@@ -1,8 +1,8 @@
 # masteruah
-Repositorio de la practica GIT
+*Repositorio de la practica GIT*
 
 Ejercicio 2
-git clone https://github.com/RubenVZGit/masteruah.git
+- Clonamos con "git clone https://github.com/RubenVZGit/masteruah.git"
 
 Ejercicio 3 (Commit Inicial)
 - Iniciamos git con "git init"
@@ -36,5 +36,12 @@ Ejercicio 8 (Crear una rama v0.2)
 	**git push
 	
 Ejercicio 9 (Merge directo)
-Posicionamos en la rama main con "git checkout main"
-Hacemos un merge de la rama v0.2 en la rama master con "git merge v0.2 main"
+- Posicionamos en la rama main con "git checkout main"
+- Hacemos un merge de la rama v0.2 en la rama master con "git merge v0.2 main"
+
+Ejercicio 10 (Merge con conflicto)
+En la rama **master** poner **Hola** en el fichero **1.txt** y hacer commit.
+- Utilizamos "nano 1.txt" introducimos Hola en el fichero, lo visualizamos con "cat 1.txt".
+- Lo subimos con "git add 1.txt", "git commit -m "Commit 5"", "git push"
+
+Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer commit.
