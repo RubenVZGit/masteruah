@@ -44,4 +44,16 @@ En la rama **master** poner **Hola** en el fichero **1.txt** y hacer commit.
 - Utilizamos "nano 1.txt" introducimos Hola en el fichero, lo visualizamos con "cat 1.txt".
 - Lo subimos con "git add 1.txt", "git commit -m "Commit 5"", "git push"
 
+<<<<<<< HEAD
 Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer commit.
+=======
+Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer commit.
+- Nos posicionamos con "git checkout v0.2"
+- Editamos fichero con "nano 1.txt"
+- Commit con "git commit -m "Commit 6""
+- Push con "git push"
+
+Posicionarse de nuevo en la rama **master** y hacer un merge con la rama **v0.2**
+- Nos posicionamos con "git checkout main"
+- Hacemos merge con "git merge v0.2 main"
+>>>>>>> v0.2
