@@ -57,3 +57,27 @@ Posicionarse de nuevo en la rama **master** y hacer un merge con la rama **v0.2*
 - Nos posicionamos con "git checkout main"
 - Hacemos merge con "git merge v0.2 main"
 >>>>>>> v0.2
+
+
+Ejercicio 11 (Listado de ramas)
+Listar ramas con merge "git branch --merged"
+Listar ramas con merge "git branch --no-merged"
+
+Ejercicio 12 (Arreglar el conflicto anterior y hacer un commit)
+Arreglar con "vim 1.txt"
+
+Ejercicio 13 (Borrar rama v0.2)
+Creamos tag v0.2 "git tag v0.2"
+Eliminamos la rama v0.2 "git branch -D v0.2"
+
+Ejercicio 14 (Listado de cambios)
+Listamos los cambios "git log --oneline --decorate --all"
+
+Ejercicio 15 (Cuenta de GitHub)
+- Poner una foto en vuestro perfil de GitHub.
+- Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+- Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
+
+Ejercicio 16 (Uso social de GitHub)
+- Preguntar los nombres de usuario de GitHub de tus compañeros de trabajo en grupo, búscalos, y sigueles.
+- Añadir una estrella a los repositorios del resto de tus compañeros.
