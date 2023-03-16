@@ -55,8 +55,6 @@ Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer
 Posicionarse de nuevo en la rama **master** y hacer un merge con la rama **v0.2**
 - Nos posicionamos con "git checkout main"
 - Hacemos merge con "git merge v0.2 main"
->>>>>>> v0.2
-
 
 Ejercicio 11 (Listado de ramas)
 Listar ramas con merge "git branch --merged"
