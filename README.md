@@ -3,7 +3,7 @@
 
 Ejercicio 2
 - Clonamos con 
-$git clone https://github.com/RubenVZGit/masteruah.git
+$ git clone https://github.com/RubenVZGit/masteruah.git
 
 Ejercicio 3 (Commit Inicial)
 - Iniciamos git con "git init"
