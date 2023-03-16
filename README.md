@@ -44,9 +44,8 @@ En la rama **master** poner **Hola** en el fichero **1.txt** y hacer commit.
 - Utilizamos "nano 1.txt" introducimos Hola en el fichero, lo visualizamos con "cat 1.txt".
 - Lo subimos con "git add 1.txt", "git commit -m "Commit 5"", "git push"
 
-<<<<<<< HEAD
 Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer commit.
-=======
+
 Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer commit.
 - Nos posicionamos con "git checkout v0.2"
 - Editamos fichero con "nano 1.txt"
@@ -93,3 +92,26 @@ Ejercicio 17 (Crear una tabla)
 	   <th>https://github.com/Mleiva04</th>
 	</tr>
 </table>
+
+Ejercicio 18 (Colaboradores)
+- Poner a [github.com/i12vecaj](http://github.com/i12vecaj) como colaborador del repositorio **masteruah**
+
+Ejercicio 19 (Crear una organización)
+- Crear una organización llamada **masteruah-tunombredeusuariodegithub**
+
+Ejercicio 20 (Crear equipos)
+- Crear 2 equipos en la organización **masteruah-tunombredeusuariodegithub**, uno llamado **administradores** con más permisos y otro **colaboradores** con menos permisos.
+- Meter a [github.com/i12vecaj](http://github.com/i12vecaj) y a 2 de vuestros compañeros de clase en el equipo **administradores**.
+- Meter a [github.com/i12vecaj](http://github.com/i12vecaj) y a otros 2 de vuestros compañeros de clase en el equipo **colaboradores**.
+
+Ejercicio 21 (Crear index)
+- Crear un index.html que se pueda ver como página web en la organización.
+
+Ejercicio 22 (Crear Pull-requests)
+- Hacer 2 forks de 2 repositorios **masteruah-tunombredeusuariodegithub.github.io** de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
+- Crearos una rama en cada fork.
+- En cada rama modificar el fichero **index.html** añadiendo vuestro nombre.
+- Con cada rama hacer un pull-request.
+
+Ejercicio 23 (Gestionar Pull-requests)
+- Aceptar los pull-request que lleguen a los repositorios de tu organización.
